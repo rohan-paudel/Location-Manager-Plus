@@ -34,3 +34,11 @@ To stop broadcasting the device’s location stream, we call the `stopBroadcasti
 locationUtils.stopBroadcastingDeviceLocationStream()
 ```
 
+## Accessing Location Data
+
+Finally, to access the current latitude from the `LocationDataHolder`, we use:
+
+```kotlin
+print(LocationDataHolder.locationLiveData.value?.latitude)
+```
+
