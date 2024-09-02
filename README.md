@@ -43,3 +43,11 @@ print(LocationDataHolder.locationLiveData.value?.latitude)
 ```
 This will print the current latitude value if available.
 
+### Summary
+
+This code snippet provides a basic example of how to initialize and use the `LocationUtils` class to handle device location broadcasting and streaming in an Android application.
+
+Feel free to customize this explanation further based on your specific needs! If you have any questions or need more details, let me know.
+
+If you need any more help or have other questions, feel free to ask!
+
