@@ -11,6 +11,7 @@ First, we initialize the `LocationUtils` object with the current context and two
 val locationUtils = LocationUtils(
     this, true, true
 )
+```
 
 ## Broadcasting Device Location
 
@@ -18,3 +19,4 @@ To start broadcasting the device’s location, we call the `broadcastDeviceLocat
 
 ```kotlin
 locationUtils.broadcastDeviceLocation()
+```
