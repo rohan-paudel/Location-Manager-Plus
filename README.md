@@ -20,3 +20,11 @@ To start broadcasting the device’s location, we call the `broadcastDeviceLocat
 ```kotlin
 locationUtils.broadcastDeviceLocation()
 ```
+
+## Managing Location Streams
+
+To broadcast the device’s location as a stream, we use the `broadcastDeviceLocationStream` method:
+
+```kotlin
+locationUtils.broadcastDeviceLocationStream()
+
