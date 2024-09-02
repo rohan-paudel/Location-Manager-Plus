@@ -41,4 +41,5 @@ Finally, to access the current latitude from the `LocationDataHolder`, we use:
 ```kotlin
 print(LocationDataHolder.locationLiveData.value?.latitude)
 ```
+This will print the current latitude value if available.
 
