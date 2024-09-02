@@ -27,4 +27,10 @@ To broadcast the device’s location as a stream, we use the `broadcastDeviceLoc
 
 ```kotlin
 locationUtils.broadcastDeviceLocationStream()
+```
+To stop broadcasting the device’s location stream, we call the `stopBroadcastingDeviceLocationStream` method:
+
+```kotlin
+locationUtils.stopBroadcastingDeviceLocationStream()
+```
 
